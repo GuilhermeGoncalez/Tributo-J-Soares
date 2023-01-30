@@ -5,12 +5,11 @@
 body {
     margin: 20px;
     padding: 0px;
-    background-color:rgb(255, 255, 60) ;
+    background-color:rgb(219, 219, 219) ;
+    border: 4px solid black;
     
 }
-article {
-   
-}
+
 h1 {
     font-size: 70px;
     text-align: center;
@@ -21,5 +20,56 @@ h2 {
 .fotoP {
     display: flex;
     justify-content: center;
+    
+}
+.titulo_antes {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+.titulo_maior h1{
+    font-size: 50px;
+}
+.widget_bar {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    margin-top: 20px;
+}
+.fato{
+    display: flex;
+    margin: 10px;
+    width: 900px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+.data{
+    display: flex;
+    margin: 10px;
+    width: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 183, 29);
+    border: 2px solid black;
+    font-weight: bolder;
+}
+.data, .fato {
+    display: inline-block;
+    justify-content: space-between;
+}
+.curiosidades div {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bolder;
+    
     
 }
