@@ -60,11 +60,16 @@ h2 {
     background-color: white;
     border: 2px solid black;
     font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
     
 }
 .corpo{
     border:4px solid black ;
     margin: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid black;
 }
 footer {
     display: flex;
